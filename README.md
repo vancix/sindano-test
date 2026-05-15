@@ -1,4 +1,4 @@
-# Sindano Test
+# Singano
 
 Mobile-first web app for Tanzanian airtime vouchers, emergency dialing, and mobile utility USSD shortcuts. Built for Android browsers and WebView.
 

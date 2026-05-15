@@ -10,7 +10,7 @@ export function InstallPrompt() {
 
   const handleInstall = async () => {
     const ok = await install();
-    if (ok) showToast("Sindano Test installed!", "success");
+    if (ok) showToast("Singano installed!", "success");
   };
 
   return (
@@ -32,7 +32,7 @@ export function InstallPrompt() {
             </motion.div>
             <div className="min-w-0 flex-1">
               <p className="text-sm font-bold text-slate-900 dark:text-white">
-                Install Sindano Test
+                Install Singano
               </p>
               <p className="text-xs text-slate-500 dark:text-slate-400">
                 Add to home screen for quick access

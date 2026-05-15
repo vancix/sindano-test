@@ -44,7 +44,7 @@ export function SettingsPanel() {
                   return;
                 }
                 const ok = await install();
-                if (ok) showToast("Sindano Test installed!", "success");
+                if (ok) showToast("Singano installed!", "success");
               }}
               disabled={isInstalled}
               className="flex w-full items-center justify-between rounded-2xl px-4 py-3.5 text-left hover:bg-slate-50 disabled:opacity-60 dark:hover:bg-slate-700/50"
@@ -58,7 +58,7 @@ export function SettingsPanel() {
         </div>
 
         <p className="text-center text-xs text-slate-500 dark:text-slate-400">
-          Sindano Test v1.0 — Made for Tanzania 🇹🇿
+          Singano v1.0 — Made for Tanzania 🇹🇿
         </p>
       </div>
     </motion.section>

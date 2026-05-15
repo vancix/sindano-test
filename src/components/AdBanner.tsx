@@ -23,7 +23,7 @@ export function AdBanner() {
 
         <div className="min-w-0 flex-1">
           <p className="truncate text-sm font-semibold text-slate-800 dark:text-slate-100">
-            Sindano Test
+            Singano
           </p>
           <p className="truncate text-xs text-slate-500 dark:text-slate-400">
             Install for offline access & faster scans

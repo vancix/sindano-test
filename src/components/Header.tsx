@@ -40,7 +40,7 @@ export function Header() {
             <span className="text-sm font-bold text-brand-orange">ST</span>
           </div>
           <h1 className="text-lg font-bold tracking-tight text-slate-900 dark:text-white sm:text-xl">
-            Sindano Test
+            Singano
           </h1>
         </div>
 

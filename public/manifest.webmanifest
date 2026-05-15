@@ -1,7 +1,7 @@
 {
-  "name": "Sindano Test",
-  "short_name": "Sindano Test",
-  "description": "Sindano Test — scan airtime vouchers instantly. Emergency services and mobile utilities in one app.",
+  "name": "Singano",
+  "short_name": "Singano",
+  "description": "Singano — scan airtime vouchers instantly. Emergency services and mobile utilities in one app.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

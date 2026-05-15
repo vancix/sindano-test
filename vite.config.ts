@@ -11,10 +11,10 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg"],
       manifest: {
-        name: "Sindano Test",
-        short_name: "Sindano Test",
+        name: "Singano",
+        short_name: "Singano",
         description:
-          "Sindano Test — scan airtime vouchers instantly. Emergency services and mobile utilities.",
+          "Singano — scan airtime vouchers instantly. Emergency services and mobile utilities.",
         theme_color: "#2d5a27",
         background_color: "#f4f5f7",
         display: "standalone",
