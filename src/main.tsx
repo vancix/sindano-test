@@ -4,12 +4,7 @@ import { registerSW } from "virtual:pwa-register";
 import App from "./App.tsx";
 import "./index.css";
 
-registerSW({
-  immediate: true,
-  onOfflineReady() {
-    console.info("[Sindano Test] Ready for offline use");
-  },
-});
+registerSW({ immediate: true });
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

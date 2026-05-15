@@ -41,10 +41,3 @@ export const serviceItems: ServiceItem[] = [
   { id: "nida", label: "NIDA Number", icon: IdCard },
   { id: "operator", label: "Which Operator", icon: Radio },
 ];
-
-export const scanSteps = [
-  "Initializing camera…",
-  "Detecting voucher code…",
-  "Validating with operator…",
-  "Applying airtime…",
-];
