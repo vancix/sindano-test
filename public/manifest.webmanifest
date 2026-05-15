@@ -1,0 +1,29 @@
+{
+  "name": "Sindano Test",
+  "short_name": "Sindano Test",
+  "description": "Sindano Test — scan airtime vouchers instantly. Emergency services and mobile utilities in one app.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f5f7",
+  "theme_color": "#2d5a27",
+  "orientation": "portrait-primary",
+  "lang": "en-TZ",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["utilities", "finance"],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
