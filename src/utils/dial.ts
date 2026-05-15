@@ -9,7 +9,14 @@ export function buildTelUri(code: string): string {
 }
 
 export function dial(code: string): void {
-  window.location.href = buildTelUri(code);
+  const uri = buildTelUri(code);
+  const a = document.createElement("a");
+  a.href = uri;
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 }
 
 /** Vodacom-style recharge: *104*{15-digit voucher}# */
